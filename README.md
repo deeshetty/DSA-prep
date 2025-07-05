@@ -78,6 +78,9 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Combinations**  
   Pattern: Backtracking / Recursion  
   [LeetCode 77](https://leetcode.com/problems/combinations/)
+- **Combination Sum**  
+  Pattern: Backtracking / Recursion  
+  [LeetCode 39](https://leetcode.com/problems/combination-sum/)
 
 ---
 
