@@ -97,5 +97,7 @@ A quick reference for all problems solved, including patterns and links.
 - **Linked List Cycle**
   Pattern: Slow and fast pointers
   [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/)
+- **Reorder LL**
+  [LeetCode 143](https://leetcode.com/problems/reorder-list/)
 
 _Add more problems as you solve them!_
