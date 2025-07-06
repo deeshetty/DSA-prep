@@ -86,4 +86,10 @@ A quick reference for all problems solved, including patterns and links.
   Pattern: Backtracking / Recursion  
   [LeetCode 78](https://leetcode.com/problems/subsets/)
 
+## Linked List
+
+- **Reverse a linked list**
+  Pattern: Backtracking / Recursion  
+  [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/)
+
 _Add more problems as you solve them!_
