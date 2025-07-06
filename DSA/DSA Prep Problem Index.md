@@ -94,5 +94,8 @@ A quick reference for all problems solved, including patterns and links.
 - **Middle of a Linkeed List**
   Pattern: Slow and fast pointers 
   [LeetCode 876](https://leetcode.com/problems/middle-of-the-linked-list/)
+- **Linked List Cycle**
+  Pattern: Slow and fast pointers
+  [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/)
 
 _Add more problems as you solve them!_
