@@ -91,5 +91,8 @@ A quick reference for all problems solved, including patterns and links.
 - **Reverse a linked list**
   Pattern: Backtracking / Recursion  
   [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/)
+- **Middle of a Linkeed List**
+  Pattern: Slow and fast pointers 
+  [LeetCode 876](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 _Add more problems as you solve them!_
