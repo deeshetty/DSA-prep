@@ -82,6 +82,21 @@ A collection of coding problems, patterns, and solutions for technical interview
   Pattern: Backtracking / Recursion  
   [LeetCode 39](https://leetcode.com/problems/combination-sum/)
 
+## Linked List
+
+- **Reverse a linked list**
+  Pattern: Backtracking / Recursion  
+  [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/)
+- **Middle of a Linkeed List**
+  Pattern: Slow and fast pointers 
+  [LeetCode 876](https://leetcode.com/problems/middle-of-the-linked-list/)
+- **Linked List Cycle**
+  Pattern: Slow and fast pointers
+  [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/)
+- **Merge 2 sorted LL**
+  [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+
 ---
 
 _Add more problems and patterns as you practice!_
