@@ -95,6 +95,8 @@ A collection of coding problems, patterns, and solutions for technical interview
   [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/)
 - **Merge 2 sorted LL**
   [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/)
+- **Remove Nth node from end of LL**
+  [LeetCode 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
 
 ---
