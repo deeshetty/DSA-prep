@@ -106,6 +106,9 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Level Order Traversal**
   Pattern: Queue 
   [LeetCode 102](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- **InOrder Traversal**
+  Pattern: Stack 
+  [LeetCode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 ---
 
