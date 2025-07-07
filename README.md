@@ -103,6 +103,9 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Pre Order Traversal**
   Pattern: Stack | Recursion  
   [LeetCode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+- **Level Order Traversal**
+  Pattern: Queue 
+  [LeetCode 102](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 ---
 
