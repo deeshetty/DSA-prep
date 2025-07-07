@@ -98,6 +98,11 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Remove Nth node from end of LL**
   [LeetCode 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
+## Binary Tree
+
+- **Pre Order Traversal**
+  Pattern: Stack | Recursion  
+  [LeetCode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
 ---
 
