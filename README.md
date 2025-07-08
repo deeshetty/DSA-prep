@@ -115,6 +115,9 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Diameter of a Binary Tree**
   Pattern: Recursion
   [LeetCode 543](https://leetcode.com/problems/diameter-of-binary-tree/)
+- **Balanced Binary Tree**
+  Pattern: Post Order Traversal
+  [LeetCode 110](https://leetcode.com/problems/balanced-binary-tree/)
 
 ---
 
