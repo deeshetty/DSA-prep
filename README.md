@@ -112,6 +112,9 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Maximum Depth of Binary Tree**
   Pattern: Recursion / Queue 
   [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- **Diameter of a Binary Tree**
+  Pattern: Recursion
+  [LeetCode 543](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 ---
 
