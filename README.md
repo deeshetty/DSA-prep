@@ -109,6 +109,9 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **InOrder Traversal**
   Pattern: Stack 
   [LeetCode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- **Maximum Depth of Binary Tree**
+  Pattern: Recursion / Queue 
+  [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 ---
 
