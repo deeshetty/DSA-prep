@@ -118,7 +118,10 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Balanced Binary Tree**
   Pattern: Post Order Traversal
   [LeetCode 110](https://leetcode.com/problems/balanced-binary-tree/)
-
+- **LCA of binary tree**
+  [LeetCode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- **Symmetric tree**
+  [LeetCode 101](https://leetcode.com/problems/symmetric-tree/)
 ---
 
 _Add more problems and patterns as you practice!_
