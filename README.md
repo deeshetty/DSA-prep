@@ -124,6 +124,9 @@ A collection of coding problems, patterns, and solutions for technical interview
   [LeetCode 101](https://leetcode.com/problems/symmetric-tree/)
 - **Same Tree**
   [LeetCode 100](https://leetcode.com/problems/same-tree/)
+- **Validatte BST**
+  [LeetCode 98](https://leetcode.com/problems/validate-binary-search-tree/)
+
 ---
 
 _Add more problems and patterns as you practice!_
