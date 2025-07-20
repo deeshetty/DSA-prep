@@ -30,6 +30,38 @@
 // -109 <= target <= 109
 // Only one valid answer exists.
 
+//For sorted arrays - use 2 pointer approach
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        if(nums.length == 0) {
+            return new int[] {};
+        }
+
+        int n = nums.length;
+
+        int left = 0;
+        int right = n-1;
+
+        while(left < right) {
+            int curSum = nums[left] + nums[right];
+            if(curSum == target) {
+                return new int[]{
+                    left,
+                    right
+                };
+            } else if (curSum < target) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        return new int[] {-1, -1};
+    }
+}
+//TC: O(N) as array is already sorted
+//SC: O(1) as no extra space is used
+
 //for handling unsorted array - without any extra space (without the use of hashmap)
 class Solution {
     static class Pair {
@@ -78,6 +110,8 @@ class Solution {
         return new int[] {-1, -1};
     }
 }
+//TC: O(NlogN) + O(N) = O(NlogN) as we are sorting the array
+//SC: O(N) as we are using extra space to store the pairs
 
 //with extra space
 // class Solution {
@@ -99,3 +133,6 @@ class Solution {
 //         return new int[] {};
 //     }
 // }
+
+//TC: O(N) as we are traversing the array once
+//SC: O(N) as we are using extra space to store the hashmap

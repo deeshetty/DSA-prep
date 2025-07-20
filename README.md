@@ -19,6 +19,28 @@ A collection of coding problems, patterns, and solutions for technical interview
 
 ## Problem Index
 
+### Two Pointers
+- Sorted Input, finding pairs, reducing complexity from O(n2) to (n), specific patterns like reversing, intersection, subArrays/subStrings
+- **Two Sum**  
+  [LeetCode 1](https://leetcode.com/problems/two-sum/)
+- **Valid Palindrome**
+  [LeetCode 125](https://leetcode.com/problems/valid-palindrome/)
+- **Reverse String**
+  [LeetCode 344](https://leetcode.com/problems/reverse-string/)
+
+### Sliding Window
+- **Longest Substring without repeating characters**  
+  [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- **Minimum Size Subarray Sum**
+  [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- **Longest Repeating Character Replacement**
+  [LeetCode 424](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- **Max Consecutive Ones**
+  [LeetCode 485](https://leetcode.com/problems/max-consecutive-ones/)
+- **Maximum Average Subarray I**
+  [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/)
+- **Max Consecutive Ones III**
+  [LeetCode 1004](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
 ### Dynamic Programming
 - **Fibonacci Number**  

@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
 // Given a string s, find the length of the longest substring without duplicate characters.
 
  
@@ -50,7 +52,7 @@ class Solution {
 // TC: O(N)
 // SC: O(N)
 
-//eith spaces
+//with spaces
 // class Solution {
 //     public int lengthOfLongestSubstring(String s) {
 //         int ans = 0;

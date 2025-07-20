@@ -4,100 +4,50 @@ A quick reference for all problems solved, including patterns and links.
 
 ---
 
-## Dynamic Programming
+## Syntax
+## HashMap
+- HashMap<Integer, Integer> hm = new HashMap<>();
+- hm.put(1, 1);
+- hm.get(1);
 
-- **Fibonacci Number**  
-  Pattern: Iterative DP / Bottom-Up  
-  [LeetCode 509](https://leetcode.com/problems/fibonacci-number/)
-
+## Strings
+- s.charAt(i)
+- Character.isLetterOrDigit(s.charAt(i));
+- Character.toLowerCase(s.charAt(i))
+- Character.toUpperCase(s.charAt(i))
 ---
 
-## Binary Search
+## Tips
 
-- **Find Minimum in Rotated Sorted Array**  
-  Pattern: Binary Search on Answer Space  
-  [LeetCode 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- Use class to store pairs or tuples when needed
+  static class Pair {
+          int val;
+          int idx;
+          Pair(int val, int idx) {
+              this.val = val;
+              this.idx = idx;
+          }
+      }
 
-- **Koko Eating Bananas**  
-  Pattern: Binary Search on Answer Space  
-  [LeetCode 875](https://leetcode.com/problems/koko-eating-bananas/)
+## Sliding Window Technique
+// General template for solving sliding window problems
 
-- **Ship Within Days**  
-  Pattern: Binary Search on Answer Space  
-  [LeetCode 1011](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+```java
+int left = 0, right = 0;
+while (right < s.length()) {
+  // Expand the window by moving 'right'
+  // Update data structures (e.g., HashMap, count variables)
 
----
+  while (/* condition: window is invalid or needs to shrink */) {
+    // Shrink the window by moving 'left'
+    // Update data structures accordingly
+    left++;
+  }
 
-## Sliding Window / Monotonic Queue
+  // Optionally update result if needed
+  right++;
+}
+```
 
-- **First Negative Integer in Every Window of Size K**  
-  Pattern: Sliding Window + Deque  
-  [GFG Problem Link](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k/0)
-
-- **Sliding Window Maximum**  
-  Pattern: Monotonic Queue  
-  [LeetCode 239](https://leetcode.com/problems/sliding-window-maximum/)
-
----
-
-## Stack
-
-- **Valid Parentheses**  
-  Pattern: Stack  
-  [LeetCode 20](https://leetcode.com/problems/valid-parentheses/)
-
-- **Next Greater Element I**  
-  Pattern: Monotonic Stack  
-  [LeetCode 496](https://leetcode.com/problems/next-greater-element-i/)
-
-- **Largest Rectangle in Histogram**  
-  Pattern: Monotonic Stack  
-  [LeetCode 84](https://leetcode.com/problems/largest-rectangle-in-histogram/)
-
----
-
-## BFS / Queue
-
-- **Rotting Oranges**  
-  Pattern: BFS / Multi-Source BFS  
-  [LeetCode 994](https://leetcode.com/problems/rotting-oranges/)
-
----
-
-## Prefix Sum / HashMap
-
-- **Contiguous Array**  
-  Pattern: Prefix Sum + HashMap  
-  [LeetCode 525](https://leetcode.com/problems/contiguous-array/)
-
----
-
-## Math
-
-- **Factorial Trailing Zeroes**  
-  Pattern: Math / Counting Factors  
-  [LeetCode 172](https://leetcode.com/problems/factorial-trailing-zeroes/)
-
----
-
-## Backtracking
-
-- **Subsets (Power Set)**
-  Pattern: Backtracking / Recursion  
-  [LeetCode 78](https://leetcode.com/problems/subsets/)
-
-## Linked List
-
-- **Reverse a linked list**
-  Pattern: Backtracking / Recursion  
-  [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/)
-- **Middle of a Linkeed List**
-  Pattern: Slow and fast pointers 
-  [LeetCode 876](https://leetcode.com/problems/middle-of-the-linked-list/)
-- **Linked List Cycle**
-  Pattern: Slow and fast pointers
-  [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/)
-- **Reorder LL**
-  [LeetCode 143](https://leetcode.com/problems/reorder-list/)
-
-_Add more problems as you solve them!_
+- Use array of size 26 when the problem constraint says the values can be of only english uppercase | lowercase characters
+  int[] arr = new int[26];

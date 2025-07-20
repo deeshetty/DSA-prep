@@ -1,8 +1,11 @@
 // https://leetcode.com/problems/longest-repeating-character-replacement/description/
 
-// You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.
+// You are given a string s and an integer k. 
+// You can choose any character of the string and change it to any other uppercase English character. 
+// You can perform this operation at most k times.
 
-// Return the length of the longest substring containing the same letter you can get after performing the above operations.
+// Return the length of the longest substring containing the same letter you can get after 
+// performing the above operations.
 
  
 
@@ -43,7 +46,7 @@ class Solution {
             max = Math.max(max, arr[s.charAt(high) - 'A']);
             while((high - low + 1) - max > k) {
                 arr[s.charAt(low) - 'A']--;
-                low++;  //here we do not update max, but its okay as it doesnt impact the answer, updating max would mean scanning arr again to fine the maximum
+                low++;  //here we do not update max, but its okay as it doesnt impact the answer, updating max would mean scanning arr again to find the maximum
             }
             ans = Math.max(ans, high-low+1);
             high++;
@@ -53,5 +56,5 @@ class Solution {
     }
 }
 
-TC:O(N)
-SC:O(1)
+// TC:O(N)
+// SC:O(1) as we are using a fixed size array of 26 elements for uppercase letters.
