@@ -1,6 +1,7 @@
 // https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
 
-// Given an array arr[] containing integers and an integer k, your task is to find the length of the longest subarray where the sum of its elements is equal to the given value k. If there is no subarray with sum equal to k, return 0.
+// Given an array arr[] containing integers and an integer k, your task is 
+// to find the length of the longest subarray where the sum of its elements is equal to the given value k. If there is no subarray with sum equal to k, return 0.
 
 // Examples:
 

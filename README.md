@@ -21,7 +21,7 @@ A collection of coding problems, patterns, and solutions for technical interview
 
 ### Two Pointers
 - Sorted Input, finding pairs, reducing complexity from O(n2) to (n), specific patterns like reversing, intersection, subArrays/subStrings
-- **Two Sum**  
+- **Two Sum**
   [LeetCode 1](https://leetcode.com/problems/two-sum/)
 - **Valid Palindrome**
   [LeetCode 125](https://leetcode.com/problems/valid-palindrome/)
@@ -41,6 +41,16 @@ A collection of coding problems, patterns, and solutions for technical interview
   [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/)
 - **Max Consecutive Ones III**
   [LeetCode 1004](https://leetcode.com/problems/max-consecutive-ones-iii/)
+
+### Prefix Sum
+- **Contiguous Array**  ----REVISIT
+  [LeetCode 525](https://leetcode.com/problems/contiguous-array/)
+- **Find Pivot Index**
+  [LeetCode 724](https://leetcode.com/problems/find-pivot-index/)
+- **Running Sum of 1d Array**
+  [LeetCode 1480](https://leetcode.com/problems/running-sum-of-1d-array/)
+- **Longest Subarray with Sum K** ----REVISIT
+  [GFG-1](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
 
 ### Dynamic Programming
 - **Fibonacci Number**  

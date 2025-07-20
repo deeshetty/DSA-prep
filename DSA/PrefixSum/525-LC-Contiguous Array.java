@@ -1,6 +1,7 @@
 // https://leetcode.com/problems/contiguous-array/description/?envType=problem-list-v2&envId=prefix-sum
 
-// Given a binary array nums, return the maximum length of a contiguous subarray with an equal number of 0 and 1.
+// Given a binary array nums, 
+// return the maximum length of a contiguous subarray with an equal number of 0 and 1.
 
  
 
@@ -67,6 +68,7 @@ class Solution {
 // Note: 
 // To find the longest subarray with equal 0s and 1s, we treat every 0 as -1.
 // As we go through the array, we keep a running sum (prefSum).
-// If we ever see the same sum again at a later index, it means the number of 1s and 0s between those two spots is the same (because the sum "balanced out" in between).
+// If we ever see the same sum again at a later index, 
+// it means the number of 1s and 0s between those two spots is the same (because the sum "balanced out" in between).
 // We use a HashMap to remember the first time we saw each sum, so we can quickly check and update our answer.
 // This way, we can solve the problem in one pass, and everything runs super fast!
