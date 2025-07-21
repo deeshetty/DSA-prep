@@ -52,6 +52,17 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Longest Subarray with Sum K** ----REVISIT
   [GFG-1](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
 
+### Binary Search
+- **Binary Search**
+  [LeetCode 704](https://leetcode.com/problems/binary-search/)
+- **Search in Rotated Sorted Array**
+  [LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
+- **Running Sum of 1d Array**
+  [LeetCode 1480](https://leetcode.com/problems/running-sum-of-1d-array/)
+- **Longest Subarray with Sum K** ----REVISIT
+  [GFG-1](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
+
 ### Dynamic Programming
 - **Fibonacci Number**  
   Pattern: Iterative DP / Bottom-Up  
