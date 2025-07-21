@@ -63,13 +63,6 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Longest Subarray with Sum K** ----REVISIT
   [GFG-1](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
 
-### Dynamic Programming
-- **Fibonacci Number**  
-  Pattern: Iterative DP / Bottom-Up  
-  [LeetCode 509](https://leetcode.com/problems/fibonacci-number/)
-- **Climbing Stairs**  
-  [LeetCode 70](https://leetcode.com/problems/climbing-stairs/)
-
 ### Binary Search
 - **Find Minimum in Rotated Sorted Array**  
   Pattern: Binary Search on Answer Space  
@@ -172,6 +165,15 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Validatte BST**
   [LeetCode 98](https://leetcode.com/problems/validate-binary-search-tree/)
 
+
+### Dynamic Programming
+- **Fibonacci Number**  
+  Pattern: Iterative DP / Bottom-Up  
+  [LeetCode 509](https://leetcode.com/problems/fibonacci-number/)
+- **Climbing Stairs**  
+  [LeetCode 70](https://leetcode.com/problems/climbing-stairs/)
+- **Min Cost Climbing Stairs**  
+  [NeetCode](https://neetcode.io/problems/min-cost-climbing-stairs)
 ---
 
 _Add more problems and patterns as you practice!_
