@@ -98,3 +98,18 @@ class Solution0 {
         return climbStairs(n-1) + climbStairs(n-2);
     }
 }
+
+
+// The Core Idea
+// Think of it like this: "To reach step n, you can either come from step n-1 (take 1 step) or from step n-2 (take 2 steps)."
+
+// So, the number of ways to reach step n = ways to reach n-1 + ways to reach n-2.
+
+// Why Does This Work?
+// Imagine you're at the bottom and want to reach step 5:
+
+// To reach step 5, you must have been at either:
+
+// Step 4 (then take 1 step) → all ways to reach step 4
+// Step 3 (then take 2 steps) → all ways to reach step 3
+// That's it! No other way exists because you can only take 1 or 2 steps at a time.

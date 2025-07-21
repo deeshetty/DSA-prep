@@ -67,6 +67,8 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Fibonacci Number**  
   Pattern: Iterative DP / Bottom-Up  
   [LeetCode 509](https://leetcode.com/problems/fibonacci-number/)
+- **Climbing Stairs**  
+  [LeetCode 70](https://leetcode.com/problems/climbing-stairs/)
 
 ### Binary Search
 - **Find Minimum in Rotated Sorted Array**  
