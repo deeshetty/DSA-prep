@@ -174,6 +174,8 @@ A collection of coding problems, patterns, and solutions for technical interview
   [LeetCode 70](https://leetcode.com/problems/climbing-stairs/)
 - **Min Cost Climbing Stairs**  
   [NeetCode](https://neetcode.io/problems/min-cost-climbing-stairs)
+- ** Partition Equal Subset Sum**  
+  [LeetCode 416](https://leetcode.com/problems/partition-equal-subset-sum/)
 ---
 
 _Add more problems and patterns as you practice!_
