@@ -176,6 +176,9 @@ A collection of coding problems, patterns, and solutions for technical interview
   [NeetCode](https://neetcode.io/problems/min-cost-climbing-stairs)
 - ** Partition Equal Subset Sum**  
   [LeetCode 416](https://leetcode.com/problems/partition-equal-subset-sum/)
+- **0 1 Kanpsack**  
+  [GFG 01Kanpsack](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)
+
 ---
 
 _Add more problems and patterns as you practice!_

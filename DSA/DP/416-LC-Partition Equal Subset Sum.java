@@ -237,3 +237,53 @@ class Solution {
         return prev[sum];
     }
 }
+
+class Solution {
+    private static int compute(int i, int weight, int[] val, int[] wt) {
+        if(i == -1 || weight == 0) {
+            return 0;
+        }
+        
+        int pick = 0;
+        if(wt[i] <= weight) {
+            pick = compute(i-1, weight - wt[i], val, wt) + val[i];
+        }
+        
+        int notPick = compute(i-1, weight, val, wt);
+        
+        return Math.max(pick, notPick);
+    }
+    
+    static int knapsack(int W, int val[], int wt[]) {
+        int n = val.length;
+        
+        if(n == 0 || W == 0) {
+            return 0;
+        }
+        
+        // return compute(n-1, W, val, wt);
+        
+        // int[][] dp = new int[n+1][W+1];
+        int prev[] = new int[W+1];
+        int cur[] = new int[W+1];
+        
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=W; j++) {
+                int pick = 0;
+                
+                if(wt[i-1] <= j) {
+                    pick = prev[j - wt[i-1]] + val[i-1];
+                }
+                
+                int notPick = prev[j];
+                
+                cur[j] = Math.max(pick, notPick);
+            }
+            
+                
+            System.arraycopy(cur, 0, prev, 0, W+1);
+        }
+        
+        return prev[W];
+    }
+}
