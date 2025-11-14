@@ -19,6 +19,10 @@ A collection of coding problems, patterns, and solutions for technical interview
 
 ## Problem Index
 
+### Arrays
+- **Best Time to Buy and Sell Stock**
+  [Leetcode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
 ### Two Pointers
 - Sorted Input, finding pairs, reducing complexity from O(n2) to (n), specific patterns like reversing, intersection, subArrays/subStrings
 - **Two Sum**
@@ -27,6 +31,8 @@ A collection of coding problems, patterns, and solutions for technical interview
   [LeetCode 125](https://leetcode.com/problems/valid-palindrome/)
 - **Reverse String**
   [LeetCode 344](https://leetcode.com/problems/reverse-string/)
+- **Move Zeroes**
+  [LeetCode 283](https://leetcode.com/problems/move-zeroes/)
 
 ### Sliding Window
 - **Longest Substring without repeating characters**  
@@ -51,6 +57,8 @@ A collection of coding problems, patterns, and solutions for technical interview
   [LeetCode 1480](https://leetcode.com/problems/running-sum-of-1d-array/)
 - **Longest Subarray with Sum K** ----REVISIT
   [GFG-1](https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1)
+- **Product of Array Except Self**
+  [LeetCode 238](https://leetcode.com/problems/product-of-array-except-self/)
 
 ### Binary Search
 - **Binary Search**
@@ -174,10 +182,18 @@ A collection of coding problems, patterns, and solutions for technical interview
   [LeetCode 70](https://leetcode.com/problems/climbing-stairs/)
 - **Min Cost Climbing Stairs**  
   [NeetCode](https://neetcode.io/problems/min-cost-climbing-stairs)
-- ** Partition Equal Subset Sum**  
+- **Partition Equal Subset Sum**  
   [LeetCode 416](https://leetcode.com/problems/partition-equal-subset-sum/)
 - **0 1 Kanpsack**  
   [GFG 01Kanpsack](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1)
+- **Maximum Subarray**  
+  [LeetCode 53](https://leetcode.com/problems/maximum-subarray/)
+- **Maximum Sum Circular Subarray**  
+  [LeetCode 918](https://leetcode.com/problems/maximum-sum-circular-subarray/)
+
+### Intervals
+- **Merge Intervals**  
+  [LeetCode 56](https://leetcode.com/problems/merge-intervals/)
 
 ---
 
