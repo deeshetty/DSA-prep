@@ -39,27 +39,27 @@ class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String, List<String>> hm = new HashMap<>();
 
-        for (String s : strs) {
-            addToGroup(hm, s);
+        for (String s : strs) { // O(N)
+            addToGroup(hm, s); // O(K) -> K is max length of string
         }
 
         return new ArrayList<>(hm.values());
     }
 
     private void addToGroup(Map<String, List<String>> hm, String s) {
-        int[] arr = new int[26];
-        for (char c : s.toCharArray()) {
+        int[] arr = new int[26]; //O(1)
+        for (char c : s.toCharArray()) { //O(K)
             arr[c - 'a']++;
         }
         
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(); 
         for(int count : arr) {
             sb.append(count).append("#");
         }
 
         String key = sb.toString();
 
-        hm.computeIfAbsent(key, k -> new ArrayList<>()).add(s);
+        hm.computeIfAbsent(key, k -> new ArrayList<>()).add(s); //O(1)
     }
 
      // private static void compute(HashMap<String, List<String>> hm, String s) {
@@ -77,4 +77,4 @@ class Solution {
 }
 
 // TC: O(n*k) -> N: number of strings, k: max length of string
-// SC: O(n*k)
+// SC: O(n) -> for hashmap storage
