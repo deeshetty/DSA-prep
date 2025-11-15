@@ -1,29 +1,31 @@
-// https://leetcode.com/problems/is-subsequence/description/
-
-// Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
-
-// A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
-
- 
-
-// Example 1:
-
-// Input: s = "abc", t = "ahbgdc"
-// Output: true
-// Example 2:
-
-// Input: s = "axc", t = "ahbgdc"
-// Output: false
- 
-
-// Constraints:
-
-// 0 <= s.length <= 100
-// 0 <= t.length <= 104
-// s and t consist only of lowercase English letters.
- 
-
-// Follow up: Suppose there are lots of incoming s, say s1, s2, ..., sk where k >= 109, and you want to check one by one to see if t has its subsequence. In this scenario, how would you change your code?
+/**
+ * Problem: Is Subsequence (LeetCode 392)
+ * Link: https://leetcode.com/problems/is-subsequence/
+ *
+ * Summary:
+ *   Given two strings s and t, return true if s is a subsequence of t, otherwise false.
+ *
+ * Definition:
+ *   A subsequence is formed by deleting zero or more characters from the original string
+ *   without changing the relative order of the remaining characters. Example: "ace" is a
+ *   subsequence of "abcde" but "aec" is not.
+ *
+ * Examples:
+ *   s = "abc", t = "ahbgdc" -> true
+ *   s = "axc", t = "ahbgdc" -> false
+ *
+ * Constraints:
+ *   0 <= s.length <= 100
+ *   0 <= t.length <= 10^4
+ *   s and t only contain lowercase English letters
+ *
+ * Approach:
+ *   Two-pointer greedy scan: advance pointer on t until matching characters for s are found.
+ *   Time: O(|t|)  Space: O(1)
+ *
+ * Follow-up hint:
+ *   If there are many s queries, preprocess t to build a next-index table for fast lookups.
+ */
 
 class Solution {
     public boolean isSubsequence(String s, String t) {
