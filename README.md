@@ -21,6 +21,10 @@ A collection of coding problems, patterns, and solutions for technical interview
 - **Best Time to Buy and Sell Stock** — [LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  
   File: [DSA/Arrays/121-LC-Best Time to Buy and Sell Stock.java](DSA/Arrays/121-LC-Best%20Time%20to%20Buy%20and%20Sell%20Stock.java)
 
+### Strings
+- **Longest Common Prefix** — [LeetCode 14](https://leetcode.com/problems/longest-common-prefix/)  
+  File: [DSA/Strings/14. Longest Common Prefix.java](DSA/Strings/14.%20Longest%20Common%20Prefix.java)
+
 ### Two Pointers
 - **Two Sum** — [LeetCode 1](https://leetcode.com/problems/two-sum/)  
   File: [DSA/2P/1-LC-Two Sum.java](DSA/2P/1-LC-Two%20Sum.java)
@@ -32,6 +36,12 @@ A collection of coding problems, patterns, and solutions for technical interview
   File: [DSA/2P/283-LC-Move Zeroes.java](DSA/2P/283-LC-Move%20Zeroes.java)
 - **Reverse String** — [LeetCode 344](https://leetcode.com/problems/reverse-string/)  
   File: [DSA/2P/344-LC-Reverse-String.java](DSA/2P/344-LC-Reverse-String.java)
+- **Longest Palindromic Substring** — [LeetCode 443](https://leetcode.com/problems/longest-palindromic-substring/)  
+  File: [5. Longest Palindromic Substring.java](DSA/2P/5.%20Longest%20Palindromic Substring.java)
+- **String Compression** — [LeetCode 443](https://leetcode.com/problems/string-compression/)  
+  File: [DSA/2P/443. String Compression.java](DSA/2P/443.%20String%20Compression.java)
+- **Is Subsequence** — [LeetCode 392](https://leetcode.com/problems/is-subsequence/)  
+  File: [DSA/2P/392. Is Subsequence.java](DSA/2P/392.%20Is%20Subsequence.java)
 
 ### Sliding Window
 - **Longest Substring Without Repeating Characters** — [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  
