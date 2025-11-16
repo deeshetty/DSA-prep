@@ -19,12 +19,16 @@
  *   0 <= t.length <= 10^4
  *   s and t only contain lowercase English letters
  *
+ */
+
+/*
  * Approach:
  *   Two-pointer greedy scan: advance pointer on t until matching characters for s are found.
  *   Time: O(|t|)  Space: O(1)
  *
  * Follow-up hint:
  *   If there are many s queries, preprocess t to build a next-index table for fast lookups.
+ */
  */
 
 class Solution {

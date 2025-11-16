@@ -56,6 +56,8 @@ A collection of coding problems, patterns, and solutions for technical interview
   File: [DSA/SlidingWindow/643-LC-Maximum Average Subarray.java](DSA/SlidingWindow/643-LC-Maximum%20Average%20Subarray.java)
 - **Max Consecutive Ones III** — [LeetCode 1004](https://leetcode.com/problems/max-consecutive-ones-iii/)  
   File: [DSA/SlidingWindow/1004-LC-Max Consecutive Ones III.java](DSA/SlidingWindow/1004-LC-Max%20Consecutive%20Ones%20III.java)
+- **Permutation in String** — [LeetCode 567](https://leetcode.com/problems/permutation-in-string/)  
+  File: [DSA/SlidingWindow/567. Permutation in String.java](DSA/SlidingWindow/567. Permutation%20in%20String.java)
 
 ### Prefix Sum
 - **Running Sum of 1d Array** — [LeetCode 1480](https://leetcode.com/problems/running-sum-of-1d-array/)  
@@ -119,6 +121,8 @@ A collection of coding problems, patterns, and solutions for technical interview
   File: [DSA/Hashing/128-LC-Longest Consecutive Sequence.java](DSA/Hashing/128-LC-Longest%20Consecutive%20Sequence.java)
 - **Subarray Sum Equals K** — [LeetCode 560](https://leetcode.com/problems/subarray-sum-equals-k/)  
   File: [DSA/Hashing/560-LC-Subarray Sum Equals K.java](DSA/Hashing/560-LC-Subarray%20Sum%20Equals%20K.java)
+- **Sort Characters By Frequency** — [LeetCode 451](https://leetcode.com/problems/sort-characters-by-frequency/)  
+  File: [DSA/Hashing/451. Sort Characters By Frequency.java](DSA/Hashing/451.%20Sort%20Characters%20By%20Frequency.java)
 
 ### Dynamic Programming
 - **Climbing Stairs** — [LeetCode 70](https://leetcode.com/problems/climbing-stairs/)  

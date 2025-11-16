@@ -1,31 +1,21 @@
-//https://leetcode.com/problems/longest-substring-without-repeating-characters/
-
-// Given a string s, find the length of the longest substring without duplicate characters.
-
- 
-
-// Example 1:
-
-// Input: s = "abcabcbb"
-// Output: 3
-// Explanation: The answer is "abc", with the length of 3.
-// Example 2:
-
-// Input: s = "bbbbb"
-// Output: 1
-// Explanation: The answer is "b", with the length of 1.
-// Example 3:
-
-// Input: s = "pwwkew"
-// Output: 3
-// Explanation: The answer is "wke", with the length of 3.
-// Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
- 
-
-// Constraints:
-
-// 0 <= s.length <= 5 * 104
-// s consists of English letters, digits, symbols and spaces.
+/**
+ * Problem: Longest Substring Without Repeating Characters (LeetCode 3)
+ * Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ *
+ * Summary:
+ *   Given a string s, find the length of the longest substring without duplicate characters.
+ *
+ * Examples:
+ *   s = "abcabcbb" -> 3 ("abc")
+ *   s = "bbbbb"     -> 1 ("b")
+ *   s = "pwwkew"    -> 3 ("wke")
+ *
+ * Note: the answer must be a contiguous substring, not a subsequence.
+ *
+ * Constraints:
+ *   0 <= s.length <= 5 * 10^4
+ *   s consists of English letters, digits, symbols and spaces
+ */
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -53,58 +43,31 @@ class Solution {
 // SC: O(N)
 
 //with spaces
-// class Solution {
-//     public int lengthOfLongestSubstring(String s) {
-//         int ans = 0;
-//         int i = 0;
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int ans = 0;
+        int i = 0;
 
-//         Set<Character> hs = new HashSet<>();
+        Set<Character> hs = new HashSet<>();
 
-//         for(int j=0; j<s.length(); j++) {
-//             if(Character.isLetterOrDigit(s.charAt(j))) {
-//                 if(!hs.add(s.charAt(j))) {
-//                     while(s.charAt(i) != s.charAt(j) && i<=j) {
-//                         if(hs.contains(s.charAt(i))) {
-//                             hs.remove(s.charAt(i));
-//                         }
-//                         i++;
-//                     }
-//                     i++;
-//                 }
-//             }
-//             ans = Math.max(ans, j-i+1);
-//         }
+        for(int j=0; j<s.length(); j++) {
+            if(Character.isLetterOrDigit(s.charAt(j))) {
+                if(!hs.add(s.charAt(j))) {
+                    while(s.charAt(i) != s.charAt(j) && i<=j) {
+                        if(hs.contains(s.charAt(i))) {
+                            hs.remove(s.charAt(i));
+                        }
+                        i++;
+                    }
+                    i++;
+                }
+            }
+            ans = Math.max(ans, j-i+1);
+        }
 
-//         return ans;
-//     }
-// }
-
-// class Solution {
-//     public int lengthOfLongestSubstring(String s) {
-//         if(s.length() <= 1) {
-//             return s.length();
-//         }
-
-//         int l = 0;
-//         int r = 0;
-//         int ans = 0;
-//         HashSet<Character> hs = new HashSet<>();
-
-//         while(r < s.length()) {
-//             if(!hs.add(s.charAt(r))) {
-//                 while(l <= r && s.charAt(l) != s.charAt(r)) {
-//                     hs.remove(s.charAt(l));
-//                     l++;
-//                 }
-//                 l++;
-//             }
-//             ans = Math.max(ans, r-l+1);
-//             r++;
-//         }
-
-//         return ans;
-//     }
-// }
+        return ans;
+    }
+}
 
 // class Solution {
 //     public int lengthOfLongestSubstring(String s) {
@@ -140,3 +103,12 @@ class Solution {
 //         return maxL;
 //     }
 // }
+
+/*
+ * Approach:
+ *   Sliding window (two pointers) with a HashSet or HashMap to track seen characters/indices.
+ *   Move the right pointer to expand and adjust the left pointer to remove duplicates.
+ *
+ * Complexity:
+ *   Time: O(n)  Space: O(min(n, charset_size))
+ */

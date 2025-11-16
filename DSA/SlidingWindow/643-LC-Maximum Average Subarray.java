@@ -1,29 +1,19 @@
-//https://leetcode.com/problems/maximum-average-subarray-i/
-
-// You are given an integer array nums consisting of n elements, and an integer k.
-
-// Find a contiguous subarray whose length is equal to k that has the maximum average value and 
-// return this value. 
-// Any answer with a calculation error less than 10-5 will be accepted.
-
- 
-
-// Example 1:
-
-// Input: nums = [1,12,-5,-6,50,3], k = 4
-// Output: 12.75000
-// Explanation: Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75
-// Example 2:
-
-// Input: nums = [5], k = 1
-// Output: 5.00000
- 
-
-// Constraints:
-
-// n == nums.length
-// 1 <= k <= n <= 105
-// -104 <= nums[i] <= 104
+/**
+ * Problem: 643-LC-Maximum Average Subarray (LeetCode 643)
+ * Link: https://leetcode.com/problems/maximum-average-subarray-i/
+ *
+ * Given nums and k, find the contiguous subarray of length k with the maximum average value.
+ *
+ * Examples:
+ *   Input: nums = [1,12,-5,-6,50,3], k = 4 -> 12.75
+ *  Explanation: [12,-5,-6,50] has the maximum average 12.75
+ *   Input: nums = [5], k = 1 -> 5.0
+ *
+ * Constraints:
+ *   n == nums.length
+ *   1 <= k <= n <= 10^5
+ *   -10^4 <= nums[i] <= 10^4
+ */
 
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
@@ -50,3 +40,12 @@ class Solution {
 
 // TC: O(N)
 // SC: O(1)
+
+/*
+ * Approach:
+ *   Sliding window of fixed size k: maintain running sum and update answer when window size == k.
+ *
+ * Complexity:
+ *   Time: O(n)
+ *   Space: O(1)
+ */
